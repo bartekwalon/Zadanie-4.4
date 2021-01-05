@@ -48,8 +48,8 @@ elif select == 4:
 else: 
     print("Niepoprawna wartość")
 
-if __name__ == "__main__":
-    logging.debug("Nowe obliczenie")
-    logging.debug("Wybrane dzialanie to %s" % select)
-    logging.debug("Pierwszy parametr to %s" % number_1)
-    logging.debug("Drugi parametr to %s" % number_2)
+
+logging.debug("Nowe obliczenie")
+logging.debug("Wybrane dzialanie to %s" % select)
+logging.debug("Pierwszy parametr to %s" % number_1)
+logging.debug("Drugi parametr to %s" % number_2)
